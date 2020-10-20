@@ -2,9 +2,9 @@
 
 Supporting Information for the paper "[Predicting Drug Protein Interaction using Quasi-Visual Question Answering System](https://www.nature.com/articles/s42256-020-0152-y)"
 
-DrugVQA is a multimodel learning method combining a dynamic attentive convolutional neural network to learn fixed-size represen-tations from the variable-length distance maps and a self-attentional sequential model to automatically extract semantic features from the linear notations.
+DrugVQA is a multimodel learning method combining a dynamic attentive convolutional neural network to learn fixed-size representations from the variable-length distance maps and a self-attentional sequential model to automatically extract semantic features from the linear notations.
 
-![DrugVQA](Image/drugVQA.png)
+![DrugVQA](images/drugVQA.png)
 
 
 ## Dataset
@@ -18,5 +18,5 @@ Run [main.py](./main.py)
 ## Usage
 To run the training procedure,
 
-1. Install [requirements.txt](./requirements.txt) to set up the envirnoment.
+1. Install [requirements.txt](./requirements.txt) to set up the environment.
 2. Run the [main.py](./main.py) to train and test the model.
