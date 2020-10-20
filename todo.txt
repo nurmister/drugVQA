@@ -1,2 +1,4 @@
 1. Add full requirements list.
-2. 
+2. Clean up code formatting
+* Specific points here.
+3. Update code to pyt 1.6
