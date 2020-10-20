@@ -11,9 +11,10 @@ from trainAndTest import *
 
 def main():
     """
-    Parsing command line parameters, reading data, fitting and scoring a SEAL-CI model.
+    Parsing command line parameters,  reading data,  fitting and scoring a SEAL-CI model.
     """
-    losses,accs,testResults = train(trainArgs)
+    losses, accs, testResults = train(trainArgs)
     
+
 if __name__ == "__main__":
     main()
