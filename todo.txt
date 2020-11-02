@@ -1,4 +1,6 @@
 1. Add full requirements list.
 2. Clean up code formatting
 * Specific points here.
-3. Update code to pyt 1.6
+3. Put default arguments in main, and make them modifiable.
+4. Fix main docstring once you figure out what it is actually doing.
+5. Add the ability to seed.

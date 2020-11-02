@@ -1,20 +1,19 @@
-"""Add description here."""
+"""Add docstring here."""
 
 import torch
-from sklearn import metrics
 import warnings
+from trainAndTest import train, trainArgs
+
+#  from sklearn import metrics
+
 warnings.filterwarnings("ignore")
-torch.cuda.set_device(1)
-print('cuda size == 1')
-from trainAndTest import *
+torch.cuda.set_device(0)
 
 
 def main():
-    """
-    Parsing command line parameters,  reading data,  fitting and scoring a SEAL-CI model.
-    """
+    """Parse command line parameters, reading data, fitting and scoring a SEAL-CI model."""
     losses, accs, testResults = train(trainArgs)
-    
+
 
 if __name__ == "__main__":
     main()
